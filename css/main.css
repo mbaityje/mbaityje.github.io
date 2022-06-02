@@ -48,7 +48,7 @@ div {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+div.column {
   float: left;
   width: 50%;
   padding: 10px;
@@ -56,7 +56,7 @@ div {
 }
 
 /* Clear floats after the columns */
-.row:after {
+div.row:after {
   content: "";
   display: table;
   clear: both;
