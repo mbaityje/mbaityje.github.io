@@ -30,8 +30,8 @@ p {
 }
 .content {
     text-align: left;
-    color: red;
-    font-size: .1em;
+    color: blue;
+    font-size: 1.0em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
