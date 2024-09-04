@@ -4,7 +4,7 @@ body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+#    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -15,23 +15,14 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #777;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h3 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h4 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+#    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -39,7 +30,7 @@ p {
     color: #333;
 }
 .content {
-    text-align: justify;
+    text-align: left;
     font-size: 1.0em;
 }
 footer {
