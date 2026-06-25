@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">About</a></li>
-	        		<li><a href="/research">Research</a></li>
-	        		<li><a href="/group">Research Group</a></li>
-	        		<!-- <li><a href="/publications">Publications</a></li> -->
-	        		<li><a href="/faq">FAQ</a></li>
-	        		<li><a href="/ufaq">UFAQ</a></li>
-	        		<li><a href="/external">External</a></li>
-	        		<li><a href="/talks">Talks</a></li>
-	        		<!-- <li><a href="/contact">Contact</a></li> -->
-	        		<!-- <li><a href="/openings">Openings</a></li> -->
-					<!-- <li><a href="/blog">Blog</a></li> -->
-					<!-- <li><a href="/activism">Activism</a></li> -->
-	    		</ul>
-			</nav>
-			<div style="width: 100%; height: 150px; overflow: hidden">
-				<img src="{{site.url}}/_images/jungfraufirn.jpg" width="100%" alt="Jungfraufirn"> 
-			</div>
-
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://www.eawag.ch/en/aboutus/portrait/organisation/staff/profile/marco-baity-jesi/show/">Homepage@Eawag</a></li>
-	        		<li><a href="mailto:marco.baityjesi@eawag.ch">email</a></li>
-	        		<li><a href="http://github.com/mbaityje">github</a></li>
-	        		<!-- <li><a href="http://linkedin.com/in/marco-baity-jesi"> linkedin </a></li> -->
-	        		<li><a href="http://scholar.google.com/citations?user=4S1Ajs8AAAAJ&hl=en&oi=ao"> scholar </a></li>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<header>
+			<nav aria-label="Main site navigation">
+				<ul>
+					<li><a href="/">About</a></li>
+					<li><a href="/research">Research</a></li>
+					<li><a href="/group">Research Group</a></li>
+					<li><a href="/faq">FAQ</a></li>
+					<li><a href="/ufaq">UFAQ</a></li>
+					<li><a href="/external">External</a></li>
+					<li><a href="/talks">Talks</a></li>
 				</ul>
-			</footer>
-		</body>
-	</html>
+			</nav>
+			<div class="hero">
+				<img src="{{site.url}}/_images/jungfraufirn.jpg" alt="Jungfraufirn"> 
+			</div>
+		</header>
+
+		<main class="container">
+			{{ content }}
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="https://www.eawag.ch/en/aboutus/portrait/organisation/staff/profile/marco-baity-jesi/show/">Homepage@Eawag</a></li>
+				<li><a href="mailto:marco.baityjesi@eawag.ch">email</a></li>
+				<li><a href="http://github.com/mbaityje">github</a></li>
+				<li><a href="http://scholar.google.com/citations?user=4S1Ajs8AAAAJ&hl=en&oi=ao">scholar</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
