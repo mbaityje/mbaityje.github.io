@@ -67,6 +67,21 @@ nav .main-nav > li:hover .submenu,
 nav .main-nav > li:focus-within .submenu {
     display: block;
 }
+a {
+    color: #2b4a66;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+a:hover,
+a:focus {
+    color: #16324f;
+    text-decoration: none;
+    border-color: #16324f;
+}
+a:visited {
+    color: #5f4d7a;
+}
 nav a:hover,
 nav a:focus {
     color: #111;
