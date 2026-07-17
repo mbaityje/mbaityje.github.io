@@ -7,28 +7,27 @@
   <body>
     <nav>
       <ul class="main-nav">
-        <li><a href="/about">About / Me</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Biography</a></li>
         <li class="has-submenu">
-          <a href="/research">Research</a>
+          <a href="{{ '/research' | relative_url }}">Research</a>
           <ul class="submenu">
-            <li><a href="/research/research-interests">Research Interests</a></li>
-            <li><a href="/research/group">Research Group</a></li>
-            <li><a href="/research/popular-science">Research Popular Outreach</a></li>
-            <li><a href="/research/talks-scientific">Scientific Presentations</a></li>
-            <li><a href="/research/teaching">Teaching</a></li>
-            <li><a href="/research/faq">FAQ</a></li>
+            <li><a href="{{ '/research/research-interests' | relative_url }}">Research Projects</a></li>
+            <li><a href="{{ '/research/group' | relative_url }}">Research Group</a></li>
+            <li><a href="{{ '/research/popular-science' | relative_url }}">Public Research Outreach</a></li>
+            <li><a href="{{ '/research/talks-scientific' | relative_url }}">Scientific Presentations</a></li>
+            <li><a href="{{ '/research/teaching' | relative_url }}">Teaching</a></li>
+            <li><a href="{{ '/research/faq' | relative_url }}">Research FAQ</a></li>
           </ul>
         </li>
         <li class="has-submenu">
-          <a href="/engagement">Public Engagement</a>
+          <a href="{{ '/engagement' | relative_url }}">Public Engagement</a>
           <ul class="submenu">
-            <li><a href="/engagement/activism">Science & Society</a></li>
-            <li><a href="/engagement/talks-advocacy">Advocacy Presentations</a></li>
-            <li><a href="/engagement/external">External Resources</a></li>
-            <!-- <li><a href="/engagement/ufaq">UFAQ</a></li> -->
+            <li><a href="{{ '/engagement/activism' | relative_url }}">Science and Society</a></li>
+            <li><a href="{{ '/engagement/talks-advocacy' | relative_url }}">Public Engagement Talks</a></li>
+            <li><a href="{{ '/engagement/external' | relative_url }}">External Resources</a></li>
           </ul>
         </li>
-        <li><a href="{{ '/random' | relative_url }}">Random</a></li>
+        <li><a href="{{ '/random' | relative_url }}">Miscellany</a></li>
       </ul>
     </nav>
     <div style="width: 100%; height: 150px; overflow: hidden">
