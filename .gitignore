@@ -2,4 +2,5 @@ _site/
 *.sh
 *~.DS_Store
 .DS_Store
+**/.DS_Store
 *~
