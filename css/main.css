@@ -10,7 +10,8 @@ body {
     background: #fff;
     line-height: 1.75;
 }
-nav ul, footer ul {
+nav ul, nav ul li,
+footer ul, footer ul li {
     padding: 0;
     margin: 0;
     list-style: none;
